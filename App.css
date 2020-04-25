@@ -1,0 +1,45 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.welcome,
+.result {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.question {
+  background-color: rgba(50, 50, 50, 0.6);
+  font-size: 120%;
+}
+
+.trivia-game {
+  font-family: "Lobster", sans-serif;
+  font-size: 300%;
+  color: #eee;
+}
+
+.logo {
+  height: 100px;
+}
+
+.resultLogo,
+.jokerLogo {
+  height: 50px;
+}
+:focus {
+  outline: none;
+}
+.play {
+  font-size: 130%;
+  font-weight: bold;
+}
